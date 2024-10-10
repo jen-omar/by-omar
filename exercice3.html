@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="contact.php" method="">
+        <label for="nom" id="label">Nom:</label>
+        <input type="text" id="nom" name="nom" placeholder="Nom">
+        <br>
+        <label for="prenom" id="label">Prénom:</label>
+        <input type="text" id="prenom" name="prenom" placeholder="Prénom">
+        <br>
+        <label for="email" id="label">E-mail:</label>
+        <input type="text" id="email" name="email" placeholder="E-mail">
+        <br>
+        <label for="tel" id="label">Téléphone:</label>
+        <input type="number" id="tel" name="tel" placeholder="Téléphone">
+        <br>
+        <label for="adr" id="label">Adresse:</label>
+        <textarea id="adr" name="adr" cols="30" rows="5" placeholder="Adresse"></textarea>
+        <br>
+        <label for="code" id="label">Code Postal:</label>
+        <select id="code" name="code">
+            <optgroup label="opt">
+                <option> 4116</option>
+            </optgroup>
+        </select>
+        <br>
+        <input type="submit" value="Evoyer">
+        <input type="reset" value="Annuler">
+    </form>
+</body>
+</html>
